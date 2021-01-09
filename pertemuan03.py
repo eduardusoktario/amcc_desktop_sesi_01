@@ -101,19 +101,26 @@
 # print(set5.union(set4))
 
 #DICTIONARY
-dict1 = {"yk":"Yogyakarta","jkt":"Jakarta"}
-print("Hai, namaku Rio aku asalnya ", dict1["yk"])
-print("Hai, namaku Okta aku asalnya ", dict1.get("jkt"))
+# dict1 = {"yk":"Yogyakarta","jkt":"Jakarta"}
+# print("Hai, namaku Rio aku asalnya ", dict1["yk"])
+# print("Hai, namaku Okta aku asalnya ", dict1.get("jkt"))
 
-#tambah dictionary
-dict1["mgl"] = "Magelang"
-print(dict1)
+# #tambah dictionary
+# dict1["mgl"] = "Magelang"
+# print(dict1)
 
-#ganti value dict
-dict1["mgl"] = "Magetan"
-print(dict1)
+# #ganti value dict
+# dict1["mgl"] = "Magetan"
+# print(dict1)
 
-del dict1["mgl"]
-print(dict1)
-dict1["mgl"].clear()
-print(dict1)
+# del dict1["mgl"]
+# print(dict1)
+# dict1["mgl"].clear()
+# print(dict1)
+
+list1=[1,2,3]
+
+list1.append(4)
+print(list1)
+list1.extend([5,6,7])
+print(list1)
